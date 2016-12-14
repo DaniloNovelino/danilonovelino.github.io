@@ -9,7 +9,7 @@
             var strings = {
               name: "Danilo Novelino",
               title: "I'm Danilo Novelino.",
-              subtitle: "MSc Candidate - CIn UFPE, Software Developer - Facilit Tecnologia",
+              subtitle: "Business Analyst - Facilit Tecnologia",
               aboutMeEducation: "MSc candidate in Computer Science at CIn - UFPE, BSc in Information Systems at University of Pernambuco (UPE - 2011) and Electronics Technician at the National Service for Industrial Training (SENAI - 2006).",
               aboutMeWork: "At the same time with the researcher occupation, I've been working as software developer at Facilit Technology since 2013 and during that time I was involved in several projects using various technologies, detailed below.",
               address: "Recife, Pernambuco - Brazil",
