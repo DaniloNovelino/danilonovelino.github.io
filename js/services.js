@@ -9,9 +9,9 @@
             var strings = {
               name: "Danilo Novelino",
               title: "I'm Danilo Novelino.",
-              subtitle: "Business Analyst at Facilit Tecnologia",
-              aboutMeEducation: "MSc candidate in Computer Science at CIn - UFPE, BSc in Information Systems at University of Pernambuco (UPE - 2011) and Electronics Technician at the National Service for Industrial Training (SENAI - 2006).",
-              aboutMeWork: "At the same time with the researcher occupation, I've been working as software developer at Facilit Technology since 2013 and during that time I was involved in several projects using various technologies, detailed below.",
+              subtitle: "Business Analyst/Consultant at Facilit Tecnologia",
+              aboutMeEducation: "Postgraduate in Agile Project Management at CESAR College (CESAR - 2013) and BSc in Information Systems at University of Pernambuco (UPE - 2011).",
+              aboutMeWork: "I've been working at Facilit Technology since 2012 and during that time I was involved in several projects using various technologies, detailed below.",
               address: "Recife, Pernambuco - Brazil",
               email: "victorlaertedoliveira@gmail.com",
               ufpe: {
