@@ -24,7 +24,7 @@
                 name: "University of Pernambuco (UPE)",
                 role: "BSc in Information Systems",
                 period: "December 2011",
-                description: "The final paper of the course performs an analysis of a tool to assist in the management of projects that adop DDS and SPL. Title: An analysis of the tool S.P.L.O.T. Applied to a scenario of Distributed Development and Software Product Lines."
+                description: "The final paper of the course performs an analysis of a tool to assist in the management of projects that adop DSD(Distributed Software Development,) and SPL(Software Product Lines)."
             },
             senai: {
                 name: "National Service for Industrial Training (SENAI)",
