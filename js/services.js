@@ -13,18 +13,19 @@
               aboutMeEducation: "Postgraduate in Agile Project Management at CESAR College (CESAR - 2013) and BSc in Information Systems at University of Pernambuco (UPE - 2011).",
               aboutMeWork: "I've been working at Facilit Technology since 2012 and during that time I was involved in several projects using various technologies, detailed below.",
               address: "Recife, Pernambuco - Brazil",
-              email: "victorlaertedoliveira@gmail.com",
+              email: "danilonovelino@gmail.com",
               ufpe: {
-                name: "Federal University of Pernambuco (UFPE)",
-                role: "MSc in Computer Science",
-                period: "In Progress",
-                description: "Master Degree in Computer Science. Subfields of study: Software Engineering, Mobile Applications"
+                name: "CESAR College (CESAR)",
+                role: "Postgraduate in Agile Project Management",
+                period: "December 2013",
+                description: "In-depth study of project management with emphasis on agile values and principles, requirements engineering, estimate and agile methodologies."
             },
             upe: {
                 name: "University of Pernambuco (UPE)",
                 role: "BSc in Information Systems",
                 period: "December 2011",
-                description: "The final paper of the course sets out the key technical concepts and architectures of the Brazilian Digital Television System (SBTVD). In addition, we present the programming languages and development environments, emphasizing the preparation of a foundation for the implementation of an interactive application using declarative subsystem Ginga-NCL, which will serve to assess the knowledge of educational program viewers by answering of a questionnaire about the topic involved."
+                description: "The final paper of the course performs an analysis of a tool to assist in the management of projects that adop DDS and SPL. 
+                Title: An analysis of the tool S.P.L.O.T. Applied to a scenario of Distributed Development and Software Product Lines."
             },
             senai: {
                 name: "National Service for Industrial Training (SENAI)",
