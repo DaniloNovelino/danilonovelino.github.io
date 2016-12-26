@@ -26,39 +26,17 @@
                 period: "December 2011",
                 description: "The final paper of the course performs an analysis of a tool to assist in the management of projects that adop DSD(Distributed Software Development,) and SPL(Software Product Lines)."
             },
-            senai: {
-                name: "National Service for Industrial Training (SENAI)",
-                role: "Tech in Electronics",
-                period: "December 2006",
-                description: "Electronics technician course"
-            },
+            
             umc: {
                 name: "Upper Madison College",
                 role: "ESL - English as a Second Language",
                 period: "October 2012",
                 description: "18 weeks of full-time Language Course, completing a 24 weeks exchange"
             },
-            scrum_certificate: {
-                name: "Certified ScrumMaster",
-                role: "Scrum Alliance - 000400666",
-                period: "Until March 2017",
-                description: "A Certified ScrumMaster helps project teams properly use Scrum, increasing the likelihood of the project's overall success. CSMs understand Scrum values, practices, and applications and provide a level of knowledge and expertise above and beyond that of typical project managers. CSMs act as servant leaders, helping the rest of the Scrum team work together and learn the Scrum framework. CSMs also protect the team from both internal and external distractions"
-            },
-            c_sharp_certificate: {
-                name: "Programming in C# Specialist",
-                role: "Microsoft - F108-2395",
-                period: "No expiration",
-                description: "Microsoft Exam 70-483"
-            },
-            mcp_certificate: {
-                name: "Microsoft Certified Professional",
-                role: "Microsoft - F108-2395",
-                period: "No expiration",
-                description: "Microsoft Certified Professional (MCP) is a certification that validates the professional developer and technical expertise IT developer with rigorous testing, approved and recognized by the industry. MCP exams cover a wide range of products, technologies and Microsoft solutions."
-            },
+            
             facilit: {
                 name: "Facilit Tecnologia",
-                role: "Software Developer",
+                role: "Business Analyst/Consultant",
                 period: "May 2013 - Current",
                 description: "Java Web Systems and Apps (Android, Windows 8/Phone) Development."
             },
