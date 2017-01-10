@@ -37,7 +37,13 @@
             facilit: {
                 name: "Facilit Tecnologia",
                 role: "Business Analyst/Consultant",
-                period: "May 2013 - Current",
+                period: "May 2016 - Current",
+                description: "Java Web Systems and Apps (Android, Windows 8/Phone) Development."
+            },
+            facilit: {
+                name: "Facilit Tecnologia",
+                role: "Project Manager / Product Owner",
+                period: "Jully 2012 - May 2015",
                 description: "Java Web Systems and Apps (Android, Windows 8/Phone) Development."
             },
             skills_plp: "Programming Languages and Platforms:",
