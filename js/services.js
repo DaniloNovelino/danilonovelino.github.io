@@ -48,10 +48,10 @@
                 period: "Jully 2012 - May 2015",
                 description: "Java Web Systems and Apps (Android, Windows 8/Phone) Development."
             },
-            skills_plp: "Programming Languages and Platforms:",
-            skills_plp1: "Java EE / Android, C#, Javascript (Good or better);",
-            skills_plp2: "SQL, NCL, Lua (Regular);",
-            skills_plp3: "Objective C, Swift (Basic or less)",
+            skills_plp: "Management models, frameworks and tools:",
+            skills_plp1: "Project Management, Scrum, Agile Methodologies and Strategic Planning(Very Good);",
+            skills_plp2: "Business Analysis, Business Process and Software Engineering (Good);",
+            skills_plp3: "Management 3.0, UML and ITIL  (Basic)",
             skills_experience: "Experience in:",
             skills_experience_array: [
             {
