@@ -49,16 +49,16 @@
                 description: "Java Web Systems and Apps (Android, Windows 8/Phone) Development."
             },
             skills_plp: "Management models, frameworks and tools:",
-            skills_plp1: "Project Management, Scrum, Agile Methodologies and Strategic Planning(Very Good);",
+            skills_plp1: "Project Management, Scrum, Agile Methodologies and Strategic Planning (Very Good);",
             skills_plp2: "Business Analysis, Business Process and Software Engineering (Good);",
             skills_plp3: "Management 3.0, UML and ITIL  (Basic)",
             skills_experience: "Experience in:",
             skills_experience_array: [
             {
-              text: "Mobile Development: Android, Windows Phone/8, IOs;"
+              text: "Management porjects using Scrum and some tools of anothers Agiles Methodologies;"
           },
           {
-              text: "RDBMS: MySQL, PostgreSQL, MongoDB;"
+              text: ""
           },
           {
               text: "Application Servers and web containers: JBOSS e Tomcat;"
