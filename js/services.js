@@ -27,12 +27,12 @@
                 description: "The final paper of the course performs an analysis of a tool to assist in the management of projects that adop DSD(Distributed Software Development,) and SPL(Software Product Lines)."
             },
             
-            umc: {
+           /* umc: {
                 name: "Upper Madison College",
                 role: "ESL - English as a Second Language",
                 period: "October 2012",
                 description: "18 weeks of full-time Language Course, completing a 24 weeks exchange"
-            },
+            }, */
             
             facilit: {
                 name: "Facilit Tecnologia",
