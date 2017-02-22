@@ -127,7 +127,7 @@
                   name: "java"
               },
               {
-                  name: "javascript"
+                  name: "Management"
               }
               ]
           },
@@ -140,7 +140,7 @@
               url: "",
               tags: [
               {
-                  name: "C#"
+                  name: "Scrum"
               }
               ]
           },
