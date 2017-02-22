@@ -50,20 +50,20 @@
             },
             skills_plp: "Management models, frameworks and tools:",
             skills_plp1: "Project Management, Scrum, Agile Methodologies and Strategic Planning (Very Good);",
-            skills_plp2: "Business Analysis, Business Process and Software Engineering (Good);",
+            skills_plp2: "Business Analysis, Business Process, Balanced Scorecard and Software Engineering (Good);",
             skills_plp3: "Management 3.0, UML and ITIL  (Basic)",
             skills_experience: "Experience in:",
             skills_experience_array: [
             {
-              text: "Management porjects using Scrum and some tools of anothers Agiles Methodologies;"
+              text: "Management porjects using Scrum and some tools of anothers Agile Methodologies;"
           },
           {
-              text: ""
+              text: "Work with agile teams always seeking self-management;"
           },
           {
-              text: "Application Servers and web containers: JBOSS e Tomcat;"
+              text: "Management toll: MS Project, Redmine, Trello, Jira, Asana, ect;"
           },
-          {
+          /*{
               text: "IDE: Eclipse, Android Studio, IntelliJ IDEA, Visual Studio, NetBeans;"
           },
           {
@@ -71,119 +71,47 @@
           },
           {
               text: "CVS: SVN, Git"
-          }
+          }*/
           ],
           skills_and_recommendations: "Skills and Recommendations",
           skills_section_description: "In this section all data were collected from my Linkedin's profile, and it's based on number of recomendations. We know it can not show all the reality, but I belive it can show a little bit more about what I've done based in recomendations",
           linkedin_skills: [
           {
-              votes: 29,
+              votes: 40,
               skill: "Scrum"
           },
           {
-              votes: 28,
-              skill: "JavaScript"
+              votes: 40,
+              skill: "Project Management"
           },
           {
-              votes: 26,
-              skill: "SQL"
+              votes: 39,
+              skill: "Agile Methodologies"
           },
           {
-              votes: 24,
-              skill: "Java"
-          },
-          {
-              votes: 23,
-              skill: "Android"
-          },
-          {
-              votes: 21,
-              skill: "JQuery"
+              votes: 27,
+              skill: "Business Process"
           },
           {
               votes: 19,
-              skill: "Java Enterprise Edition"
+              skill: "Software Engineering"
           },
           {
-              votes: 18,
-              skill: "Java software development"
+              votes: 22,
+              skill: "UML"
           },
           {
-              votes: 18,
-              skill: "C#"
+              votes: 26,
+              skill: "MS Project"
           },
           {
-              votes: 17,
-              skill: "Eclipse"
-          },
-          {
-              votes: 14,
-              skill: "Subversion"
-          },
-          {
-              votes: 12,
-              skill: "Windows Phone"
-          },
-          {
-              votes: 11,
-              skill: "Tomcat"
-          },
-          {
-              votes: 10,
-              skill: "Windows software development"
-          },
-          {
-              votes: 10,
-              skill: "JBoss Application Server"
-          },
-          {
-              votes: 10,
-              skill: "Apache Tomcat"
-          },
-          {
-              votes: 9,
-              skill: "Servidor de Aplicação JBoss"
+              votes: 16,
+              skill: "PMBOK"
           },
           {
               votes: 8,
-              skill: "Microsoft Visual Studio"
+              skill: "Management 3.0"
           },
-          {
-              votes: 8,
-              skill: "Digital TV"
-          },
-          {
-              votes: 7,
-              skill: "AngularJS"
-          },
-          {
-              votes: 7,
-              skill: "NetBeans"
-          },
-          {
-              votes: 6,
-              skill: "Lua"
-          },
-          {
-              votes: 5,
-              skill: "Visual Studio"
-          },
-          {
-              votes: 4,
-              skill: "Git"
-          },
-          {
-              votes: 2,
-              skill: "Node.js"
-          },
-          {
-              votes: 1,
-              skill: "GitHub"
-          },
-          {
-              votes: 1,
-              skill: "MongoDB"
-          }
           ],
           last_updated: "Last updated at 11/06/2016",
           portfolios: [
