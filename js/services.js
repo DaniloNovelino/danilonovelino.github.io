@@ -135,8 +135,8 @@
               closed: true,
               title: "Workshop In Companny about Scrum",
               description: "Workshop in company about Scrum for Amarante Hospitalidade through the Trampoline Academy. Excellent experience to talk about Scrum in a different context of Software!.",
-              imgUrl: "images/portfolio/trampolim.jpg",
-              modalImgUrl: "images/portfolio/modals/workshop.jpg",
+              imgUrl: "images/portfolio/workshop.jpg",
+              modalImgUrl: "images/portfolio/modals/trampolim.jpg",
               url: "",
               tags: [
               {
