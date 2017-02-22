@@ -113,7 +113,7 @@
               skill: "Management 3.0"
           },
           ],
-          last_updated: "Last updated at 11/06/2016",
+          last_updated: "Last updated at 21/02/2017",
           portfolios: [
           {
               closed: true,
@@ -135,8 +135,8 @@
               closed: true,
               title: "Workshop In Companny about Scrum",
               description: "Workshop in company about Scrum for Amarante Hospitalidade through the Trampoline Academy. Excellent experience to talk about Scrum in a different context of Software!.",
-              imgUrl: "images/portfolio/workshop.jpg",
-              modalImgUrl: "images/portfolio/modals/trampolim.jpg",
+              imgUrl: "images/portfolio/trampolim.jpg",
+              modalImgUrl: "images/portfolio/modals/workshop.jpg",
               url: "",
               tags: [
               {
