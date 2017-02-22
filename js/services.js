@@ -133,11 +133,11 @@
           },
           {
               closed: true,
-              title: "Target App for Windows Store",
-              description: "This application aims to access the strategic planning of an institution that uses the Target management platform enables you to navigate so offline Objectives and Strategic Actions, with its detail: graphics, schedule, photos, indicators, maps, etc.",
-              imgUrl: "images/portfolio/tgapp_windows.jpg",
-              modalImgUrl: "images/portfolio/modals/tgapp_windows.jpg",
-              url: "http://www.microsoft.com/en-us/store/p/target-app/9wzdncrdc3k1",
+              title: "Workshop In Companny about Scrum",
+              description: "Workshop in company about Scrum for Amarante Hospitalidade through the Trampoline Academy. Excellent experience to talk about Scrum in a different context of Software!.",
+              imgUrl: "images/portfolio/workshop.jpg",
+              modalImgUrl: "images/portfolio/modals/trampolim.jpg",
+              url: "",
               tags: [
               {
                   name: "C#"
