@@ -123,9 +123,7 @@
               modalImgUrl: "images/portfolio/modals/painel_rn.jpg",
               url: "http://www.rn.gov.br/Conteudo.asp?TRAN=ITEM&TARG=131472&ACT&PAGE&PARM&LBL=NOT%C3%8DCIA",
               tags: [
-              {
-                  name: "java"
-              },
+            
               {
                   name: "Management"
               }
@@ -134,7 +132,7 @@
           {
               closed: true,
               title: "Workshop In Companny about Scrum",
-              description: "Workshop in company about Scrum for Amarante Hospitalidade through the Trampoline Academy. Excellent experience to talk about Scrum in a different context of Software!.",
+              description: "Workshop in company about Scrum for Amarante Hospitalidade through the Trampoline Academy. Excellent experience to talk about Scrum in a different context of Software.",
               imgUrl: "images/portfolio/trampolim.jpg",
               modalImgUrl: "images/portfolio/modals/workshop.jpg",
               url: "",
@@ -146,27 +144,25 @@
           },
           {
               closed: true,
-              title: "Target App for Android",
+              title: "LAI - Lei de Acesso a Informação",
               description: "This application aims to access the strategic planning of an institution that uses the Target management platform enables you to navigate so offline Objectives and Strategic Actions, with its detail: graphics, schedule, photos, indicators, maps, etc.",
-              imgUrl: "images/portfolio/tgapp_android.png",
-              modalImgUrl: "images/portfolio/modals/tgapp_android.jpg",
-              url: "http://play.google.com/store/apps/details?id=br.com.facilit.target.app.android&hl=pt-br",
+              imgUrl: "images/portfolio/lai.png",
+              modalImgUrl: "images/portfolio/modals/lai.jpg",
+              url: "http://www.lai.pe.gov.br/web/portal",
               tags: [
               {
-                  name: "java"
+                  name: "management"
               },
-              {
-                  name: "android"
-              }
+              
               ]
           },
           {
               closed: true,
-              title: "Na Onda",
+              title: "Portal da Transparência de Pernambuco",
               description: "Na Onda was designed to display information about the wave forecast for surfers scattered in the four corners of Brazil. All forecast information is provided by CPTEC / INPE",
-              imgUrl: "images/portfolio/naonda.png",
-              modalImgUrl: "images/portfolio/modals/naonda.jpg",
-              url: "http://play.google.com/store/apps/details?id=com.victorlaerte.na_onda&hl=pt-br",
+              imgUrl: "images/portfolio/tranp.png",
+              modalImgUrl: "images/portfolio/modals/transparencia.jpg",
+              url: "http://www2.transparencia.pe.gov.br/web/portal-da-transparencia",
               tags: [
               {
                   name: "java"
@@ -178,18 +174,16 @@
           },
           {
               closed: true,
-              title: "Strategic Monitoring Panel of the National Ministry of Integration for the Water for All Program - BR",
+              title: "Atlas do Investidor",
               description: "Strategic Monitoring Panel of the National Ministry of Integration for the Water for All Program, julho 2014",
-              imgUrl: "images/portfolio/painel_apt.jpg",
-              modalImgUrl: "images/portfolio/modals/painel_apt.jpg",
-              url: "http://painel.mi.gov.br/web/agua-para-todos/login",
+              imgUrl: "images/portfolio/atlas.jpg",
+              modalImgUrl: "images/portfolio/modals/atlas.jpg",
+              url: "http://www.atlasdoinvestidor.pe.gov.br/",
               tags: [
               {
-                  name: "java"
+                  name: "management"
               },
-              {
-                  name: "javascript"
-              }
+            
               ]
           },
           {
