@@ -237,38 +237,35 @@
           ],
           quotes: [
           {
-              quote: "“There are two ways of constructing a software design: One way is to make it so simple that there are obviously no deficiencies, and the other way is to make it so complicated that there are no obvious deficiencies. The first method is far more difficult.”",
-              author: "C.A.R. Hoare (British computer scientist, winner of the 1980 Turing Award)"
+              quote: "“Innovation distinguishes between a leader and a follower”",
+              author: "Steve Jobs"
           },
           {
-              quote: "“Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program.”",
-              author: "Linus Torvalds (Finnish American, software engineer and hacker, principal force behind the development of the Linux kernel)"
+              quote: "“The world is changing very fast. Big will not beat small any more. It will be the fast beating the slow.”",
+              author: "Rupert Murdoch"
           },
           {
-              quote: "“Any fool can write code that a computer can understand. Good programmers write code that humans can understand.”",
-              author: "Martin Fowler (author and speaker on software development)"
+              quote: "“No Heroics. If you need a hero to get things done, you have a problem. Heroic effort should be viewed as a failure of planning.”",
+              author: " Jeff Sutherland, Scrum: The Art of Doing Twice the Work in Half the Time"
           },
           {
-              quote: "“Good code is its own best documentation. As you’re about to add a comment, ask yourself, ‘How can I improve the code so that this comment isn’t needed?'”",
-              author: "Steve McConnell (author of many software engineering books including “Code Complete”)"
+              quote: "“That absolute alignment of purpose and trust is something that creates greatness.”",
+              author: "Jeff Sutherland, Scrum: The Art of Doing Twice the Work in Half the Time"
           },
-          {
-              quote: "“One of my most productive days was throwing away 1000 lines of code.”",
-              author: "Ken Thompson (computer scientist, early developer of UNIX OS)"
-          }
+ 
           ],
           testimonials: [
           {
-              testimonial: "Victor is smart, proactive has is a multitasker. Technically versatile, and also a team player. I'm sure he would be a great asset to any company.",
-              author: "Carlos Brandão Jr (Scrum Master at Liferay, Inc)",
-              info: "20 de outubro de 2016, Linkedin — Carlos supervised Victor Laerte at Facilit Tecnologia"
+              testimonial: "Danilo is a proactive guy that changed the process in our company and the way how we work. I had the opportunity to follow all the changes brought by Danilo, especially regarding to agile methodologies where he first introduced in his team and until today we use it all over the company. In addition to his know how in agile methods and project management, he is also very creative and with very relevant opinion both for business, product or personal things. With so many things to agregate, he is definetily a good aquisition for your company.",
+              author: "Victor Laert (Software Developer at Facilit Tecnologia)",
+              info: "24 de fevereiro de 2017, Linkedin."
           },
           {
-              testimonial: "Victor is one of the best problem-solvers I have ever worked with. During the time I've spent with him, he demonstrated expertise in his area and makes great decisions as Scrum Master, especially under pressure. I would gladly certify his skills in Software Development (Web and Mobile apps) from the many projects we've worked together.",
-              author: "Maxwell Francisco (Web Developer at Urban Insight)",
-              info: "18 de outubro de 2016, Linkedin — Maxwell worked directly with Victor Laerte at Facilit Technology"
+              testimonial: "Danilo é um profissional extremamente competente, ético e orientado a resultados. É um líder nato, sabe lidar com as pressões diárias, orienta a equipe para a melhor direção, garantindo o cumprimento dos processos. Inspira confiança e sempre está disponível para ajudar a todos. Sabe delegar e trabalha de uma maneira na qual consegue fazer com que todos se sintam incluídos em suas decisões. É um profissional completo.",
+              author: "Rodolfo Baptista (Product Owner at Facilit Tecnologia)",
+              info: "05 de março de 2015, Linkedin."
           },
-          {
+     /*     {
               testimonial: "Victor is a great, experienced workmate and friend, talented and easy to work with. He has great technical skills and always willing to learn new technologies and practices (both academical and professional). He's willing to help the workmates and not afraid to work on challenging projects. He also gave great contributions to our internal processes in the company, such as adopt GitHub, Jenkins and other tools, which demonstrates interest to the company and its team, proactivity, out-of-the-box thinking and updated with best practices. He sure was a great addition to our team and will be anywhere he works. ",
               author: "Everson Veríssimo (Developer at Facilit Tecnologia)",
               info: "17 de outubro de 2016, Linkedin — Everson worked directly with Victor Laerte at Facilit Tecnologia"
@@ -277,7 +274,7 @@
               testimonial: "We worked together by few years and I can say that Victor is one of the best developers who have had the opportunity to collaborate. Proactive, studious, committed to constantly improve their skills and always with strong and relevant opinions, whether or not on technical issues. As Scrum Master, showed one of his most admirable traits: being a good leader, fair and always enhancing the team work, resolving conflicts and ensuring delivering value to our product. Certainly one of the IT professionals that every company seeks and who would like to have another opportunity to work. I can't see a different future for Victor as well as great success.",
               author: "Jordana Morais (Senior UX Designer & Front-end at Facilit Tecnologia)",
               info: "27 de setembro de 2016, Linkedin — Jordana worked directly with Victor Laerte at Facilit Tecnologia"
-          }
+          } */
           ],
 
       }
