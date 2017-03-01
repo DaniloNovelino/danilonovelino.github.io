@@ -147,7 +147,7 @@
               title: "LAI - Lei de Acesso a Informação",
               description: "This application aims to access the strategic planning of an institution that uses the Target management platform enables you to navigate so offline Objectives and Strategic Actions, with its detail: graphics, schedule, photos, indicators, maps, etc.",
               imgUrl: "images/portfolio/lai.png",
-              modalImgUrl: "images/portfolio/modals/lai.jpg",
+              modalImgUrl: "images/portfolio/modals/lai.png",
               url: "http://www.lai.pe.gov.br/web/portal",
               tags: [
               {
@@ -160,8 +160,8 @@
               closed: true,
               title: "Portal da Transparência de Pernambuco",
               description: "Na Onda was designed to display information about the wave forecast for surfers scattered in the four corners of Brazil. All forecast information is provided by CPTEC / INPE",
-              imgUrl: "images/portfolio/tranp.png",
-              modalImgUrl: "images/portfolio/modals/transparencia.jpg",
+              imgUrl: "images/portfolio/transp.png",
+              modalImgUrl: "images/portfolio/modals/transparencia.png",
               url: "http://www2.transparencia.pe.gov.br/web/portal-da-transparencia",
               tags: [
               {
