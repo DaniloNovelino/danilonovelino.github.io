@@ -145,7 +145,7 @@
           {
               closed: true,
               title: "LAI - Lei de Acesso a Informação",
-              description: "This application aims to access the strategic planning of an institution that uses the Target management platform enables you to navigate so offline Objectives and Strategic Actions, with its detail: graphics, schedule, photos, indicators, maps, etc.",
+              description: "The LAI are intended to allow quick, organized and reliable access to information of public interest.",
               imgUrl: "images/portfolio/lai.png",
               modalImgUrl: "images/portfolio/modals/lai.png",
               url: "http://www.lai.pe.gov.br/web/portal",
@@ -159,7 +159,7 @@
           {
               closed: true,
               title: "Portal da Transparência de Pernambuco",
-              description: "Na Onda was designed to display information about the wave forecast for surfers scattered in the four corners of Brazil. All forecast information is provided by CPTEC / INPE",
+              description: "The Portal da Transparência is a site of the Government of Pernambuco that contains information about governmental actions.",
               imgUrl: "images/portfolio/transp.png",
               modalImgUrl: "images/portfolio/modals/transparencia.png",
               url: "http://www2.transparencia.pe.gov.br/web/portal-da-transparencia",
@@ -175,7 +175,7 @@
           {
               closed: true,
               title: "Atlas do Investidor",
-              description: "Strategic Monitoring Panel of the National Ministry of Integration for the Water for All Program, julho 2014",
+              description: "The Atlas do Investidor is a support tool for the investor interested in knowing the potential of the state of Pernambuco.",
               imgUrl: "images/portfolio/atlas.png",
               modalImgUrl: "images/portfolio/modals/atlas.png",
               url: "http://www.atlasdoinvestidor.pe.gov.br/",
