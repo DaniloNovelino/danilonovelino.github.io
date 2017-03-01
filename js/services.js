@@ -38,7 +38,7 @@
                 name: "Facilit Tecnologia",
                 role: "Business Analyst/Consultant",
                 period: "May 2016 - Current",
-                description: "Java Web Systems and Apps (Android, Windows 8/Phone) Development."
+                description: "Among the activities I highlight the management of projects of implantation, consulting, pre-sale and contractual management."
             },
             
            /* Analisar se é necessária a inclusão(ou modificaçãi) dessa entrada no Index */
@@ -46,7 +46,7 @@
                 name: "Facilit Tecnologia",
                 role: "Project Manager / Product Owner",
                 period: "Jully 2012 - May 2015",
-                description: "Java Web Systems and Apps (Android, Windows 8/Phone) Development."
+                description: "Project Manager working with the development of web systems using Scrum as the main agile methodology."
             },
             skills_plp: "Management models, frameworks and tools:",
             skills_plp1: "Project Management, Scrum, Agile Methodologies and Strategic Planning (Very Good);",
