@@ -176,8 +176,8 @@
               closed: true,
               title: "Atlas do Investidor",
               description: "Strategic Monitoring Panel of the National Ministry of Integration for the Water for All Program, julho 2014",
-              imgUrl: "images/portfolio/atlas.jpg",
-              modalImgUrl: "images/portfolio/modals/atlas.jpg",
+              imgUrl: "images/portfolio/atlas.png",
+              modalImgUrl: "images/portfolio/modals/atlas.png",
               url: "http://www.atlasdoinvestidor.pe.gov.br/",
               tags: [
               {
