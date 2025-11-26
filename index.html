@@ -1,498 +1,274 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en" ng-app="ngResumeApp" ng-controller="ResumeAppController" class="ng-cloak" ng-cloak>
+<html lang="pt-BR">
 <head>
+  <meta charset="utf-8">
+  <title>GT Fire | Portal do Cliente</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="GT Fire - 10 anos de experiência. Uma nova era de inovação no Portal do Cliente." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/site.css">
+  <link rel="shortcut icon" href="favicon.png">
+</head>
+<body>
+  <header class="portal-header">
+    <div class="container nav-shell">
+      <div class="brand-wrap">
+        <div class="brand-mark" aria-label="GT Fire logo">GT</div>
+        <div class="brand-text">
+          <span class="brand-name">GT Fire</span>
+          <span class="brand-tag">Segurança contra incêndio</span>
+        </div>
+        <div class="anniversary-badge" aria-label="Selo 10 anos">
+          <span class="badge-icon">10</span>
+          <span class="badge-text">Anos</span>
+        </div>
+      </div>
+      <button class="menu-toggle" aria-expanded="false" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-links" aria-label="Navegação principal">
+        <a href="#inicio">Início</a>
+        <a href="#painel">Painel</a>
+        <a href="#recursos">Recursos</a>
+        <a href="#suporte">Suporte</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <a class="cta-button ghost" href="#login">Entrar</a>
+    </div>
+  </header>
 
-   <!--- Basic Page Needs
-   ================================================== -->
-   <meta charset="utf-8">
-   <title>Danilo Novelino</title>
-   <meta name="description" content="">
-   <meta name="author" content="">
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-glow"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Portal do Cliente • Nova era</p>
+          <h1>10 Anos de experiência. <span>Uma nova era de inovação.</span></h1>
+          <p class="subhead">Seja bem-vindo ao seu novo Portal do Cliente. Mais agilidade, segurança e controle para os seus projetos.</p>
+          <div class="hero-actions">
+            <a class="cta-button" href="#login">Acessar Nova Área do Cliente</a>
+            <a class="outline-button" href="#recursos">Conhecer novidades</a>
+          </div>
+          <div class="pill-stats">
+            <div>
+              <strong><span class="counter" data-target="10">10</span> anos</strong>
+              <span>de engenharia contra incêndio</span>
+            </div>
+            <div>
+              <strong><span class="counter" data-target="99">99</span>%</strong>
+              <span>das entregas dentro do prazo</span>
+            </div>
+            <div>
+              <strong>Suporte <span class="counter" data-target="360">360</span>º</strong>
+              <span>para projetos, laudos e vistorias</span>
+            </div>
+          </div>
+        </div>
+        <div class="auth-card" id="login">
+          <div class="card-header">
+            <div>
+              <p class="eyebrow">Área segura</p>
+              <h3>Acesse seus Projetos</h3>
+              <p class="muted">Use seu e-mail corporativo e senha cadastrada.</p>
+            </div>
+            <span class="pill gold">10 anos</span>
+          </div>
+          <form class="login-form" novalidate>
+            <p class="form-alert" role="alert" hidden></p>
+            <label for="email">E-mail corporativo</label>
+            <input id="email" name="email" type="email" placeholder="seuemail@empresa.com" required>
 
-   <!-- Mobile Specific Metas
-   ================================================== -->
-   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+            <label for="password">Senha</label>
+            <input id="password" name="password" type="password" placeholder="Sua senha" required>
 
-	<!-- CSS
-	================================================== -->
-	<link rel="stylesheet" href="css/default.css">
-	<link rel="stylesheet" href="css/layout.css">
-	<link rel="stylesheet" href="css/media-queries.css">
-	<link rel="stylesheet" href="css/magnific-popup.css">
+            <div class="form-meta">
+              <label class="checkbox">
+                <input type="checkbox" name="remember" checked>
+                <span>Manter conectado</span>
+              </label>
+              <a class="muted" href="#">Esqueci minha senha</a>
+            </div>
 
-   <!-- Script
-   ================================================== -->
-   <script src="js/modernizr.js"></script>
+            <button type="submit" class="cta-button full">Entrar no Portal</button>
+          </form>
+          <div class="helper">
+            Precisa de acesso? <a href="#contato">Solicite ao suporte.</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-   <!-- Favicons
-   ================================================== -->
-   <link rel="shortcut icon" href="favicon.png" >
+    <section class="section live-panel" id="painel">
+      <div class="container">
+        <div class="section-head with-actions">
+          <div>
+            <p class="eyebrow">Dinâmica em tempo real</p>
+            <h2>Painel vivo dos seus projetos, protocolos e vistorias.</h2>
+            <p class="muted">Simule como a nova área do cliente entrega contexto imediato e priorização inteligente.</p>
+          </div>
+          <div class="chip-group" role="tablist" aria-label="Filtro do painel">
+            <button class="chip active" data-filter="todos" role="tab" aria-selected="true">Todos</button>
+            <button class="chip" data-filter="protocolos" role="tab" aria-selected="false">Protocolos</button>
+            <button class="chip" data-filter="vistorias" role="tab" aria-selected="false">Vistorias</button>
+            <button class="chip" data-filter="entregas" role="tab" aria-selected="false">Entregas</button>
+          </div>
+        </div>
+        <div class="live-grid" aria-live="polite">
+          <article class="live-card skeleton">
+            <div class="line shimmer"></div>
+            <div class="line shimmer short"></div>
+          </article>
+          <article class="live-card skeleton">
+            <div class="line shimmer"></div>
+            <div class="line shimmer short"></div>
+          </article>
+          <article class="live-card skeleton">
+            <div class="line shimmer"></div>
+            <div class="line shimmer short"></div>
+          </article>
+        </div>
+        <div class="live-foot">
+          <div class="status-dot pulse"></div>
+          <span class="live-updated">Atualizado a cada 30s</span>
+          <button class="outline-button refresh" type="button">Atualizar agora</button>
+        </div>
+      </div>
+    </section>
 
- </head>
+    <section class="section" id="recursos">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Recursos do Portal</p>
+          <h2>Uma experiência moderna para acompanhar, aprovar e ganhar velocidade.</h2>
+          <p class="muted">A nova interface combina visão executiva e detalhes técnicos para você ter segurança em cada etapa.</p>
+        </div>
+        <div class="card-grid">
+          <article class="glass-card">
+            <div class="icon-circle"><i class="fa fa-dashboard"></i></div>
+            <h3>Dashboard inteligente</h3>
+            <p>Resumos em tempo real, status de protocolos e prazos críticos com alertas visuais.</p>
+          </article>
+          <article class="glass-card">
+            <div class="icon-circle"><i class="fa fa-lock"></i></div>
+            <h3>Segurança de dados</h3>
+            <p>Autenticação reforçada, criptografia e logs de acesso para total rastreabilidade.</p>
+          </article>
+          <article class="glass-card">
+            <div class="icon-circle"><i class="fa fa-comments"></i></div>
+            <h3>Suporte dedicado</h3>
+            <p>Atendimento especialista, trilhas de onboarding e central de mensagens integrada.</p>
+          </article>
+          <article class="glass-card">
+            <div class="icon-circle"><i class="fa fa-cloud-upload"></i></div>
+            <h3>Envio simplificado</h3>
+            <p>Upload de documentos, laudos e ARTs com validação instantânea e histórico organizado.</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
- <body >
-
-   <!-- Header
-   ================================================== -->
-   <header id="home">
-
-   	<nav id="nav-wrap">
-
-   		<a class="mobile-btn" href="#nav-wrap" title="Show navigation">{{getData('title')}}</a>
-   		<a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
-
-   		<ul id="nav" class="nav">
-
-   			<li ng-class="currentSection=='home' ? 'current' : ''" ng-click="currentSection='home'">
-   				<a class="smoothscroll" href="#home">Home</a>
-   			</li>
-
-   			<li ng-class="currentSection=='about' ? 'current' : ''" ng-click="currentSection='about'">
-   				<a class="smoothscroll" href="#about" >About</a>
-   			</li>
-
-   			<li ng-class="currentSection=='resume' ? 'current' : ''" ng-click="currentSection='resume'">
-   				<a class="smoothscroll" href="#resume" >Resume</a>
-   			</li>
-
-   			<li ng-class="currentSection=='skills' ? 'current' : ''" ng-click="currentSection='skills'">
-   				<a class="smoothscroll" href="#skills" >Skills</a>
-   			</li>
-
-   			<li ng-class="currentSection=='works' ? 'current' : ''" ng-click="currentSection='works'">
-   				<a class="smoothscroll" href="#portfolio" >Works</a>
-   			</li>
-
-            <li ng-class="currentSection=='publications' ? 'current' : ''" ng-click="currentSection='publications'">
-               <a class="smoothscroll" href="#publications" >Publications</a>
+    <section class="section alt" id="suporte">
+      <div class="container support-grid">
+        <div>
+          <p class="eyebrow">Suporte contínuo</p>
+          <h2>Metodologia que conecta estratégia, operação e conformidade.</h2>
+          <p>Do diagnóstico ao pós-vistoria, você acompanha os milestones, responsáveis e próximos passos em uma linha do tempo clara.</p>
+          <ul class="timeline">
+            <li>
+              <div class="dot"></div>
+              <div>
+                <h4>Kick-off guiado</h4>
+                <p>Onboarding com especialista para configurar acessos, premissas e metas.</p>
+              </div>
             </li>
-
-   			<li ng-class="currentSection=='testimonials' ? 'current' : ''" ng-click="currentSection='testimonials'">
-   				<a class="smoothscroll" href="#testimonials" >Testimonials</a>
-   			</li>
-
-   		</ul> <!-- end #nav -->
-
-   	</nav> <!-- end #nav-wrap -->
-
-   	<div class="row banner">
-   		<div class="banner-text">
-   			<h1 class="responsive-headline">{{getData('title')}}</h1>
-
-   			<h3>{{getData('subtitle')}}</h3>
-
-   			<h3>  Fascinated by  <span>solving problems</span>, <span>optimize performance</span>, <span>people</span> and their <span>relationships</span> . Let's <a class="smoothscroll" href="#about" >start scrolling</a> and learn more <a class="smoothscroll" href="#about" >about me</a>.</h3>
-
-   			<hr />
-   			<ul class="social">
-   				<li><a target="_blank" href="https://www.facebook.com/danilonovelino"><i class="fa fa-facebook"></i></a></li>
-   				<li><a target="_blank" href="https://twitter.com/danilonovelino"><i class="fa fa-twitter"></i></a></li>
-   				<li><a target="_blank" href="https://br.linkedin.com/in/danilonovelino"><i class="fa fa-linkedin"></i></a></li>
-   				<li><a target="_blank" href="https://www.instagram.com/dannovelino/"><i class="fa fa-instagram"></i></a></li>
-   				<li><a target="_blank" href="https://github.com/danilonovelino"><i class="fa fa-github"></i></a></li>
-   			</ul>
-   		</div>
-   	</div>
-
-   	<p class="scrolldown">
-   		<a class="smoothscroll" href="#about"><i class="icon-down-circle" ></i></a>
-   	</p>
-
-   </header> <!-- Header End -->
-
-   <!-- About Section -->
-   <section id="about">
-
-   	<div class="row">
-
-   		<div class="three columns">
-
-   			<img class="profile-pic"  src="images/profile.png" alt="" />
-
-   		</div>
-
-   		<div class="nine columns main-col">
-
-   			<h2>About Me</h2>
-
-   			<p>{{getData('aboutMeEducation')}}
-   			</p>
-
-   			<p>{{getData('aboutMeWork')}}
-   			</p>
-
-   			<div class="row">
-
-   				<div class="columns contact-details">
-
-   					<h2>Contact Details</h2>
-   					<p class="address">
-   						<span>{{getData('name')}}</span><br>
-   						<span>{{getData('address')}}</span><br>
-   						<span><a href="mailto:{{getData('email')}}">
-   							{{getData('email')}}
-   						</a></span>
-   						<script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
-							<div id="SkypeButton_Call_danilonovelino_1">
- 								<script type="text/javascript">
-									 Skype.ui({
-									 "name": "dropdown",
-									 "element": "SkypeButton_Call_danilonovelino_1",
-									 "participants": ["danilonovelino"],
-									 "imageSize": 24
-								 });
-								 </script>
-							</div>
-   					</p>
-
-   				</div>
-
-   				<div class="columns download">
-
-   					<a target="_blank" href="doc/Resume.pdf" class="button"><i class="fa fa-download"></i>Download Resume</a>
-   				</p>
-   			</div>
-
-   		</div>
-
-   	</div>
-
-   </div>
-
- </section> <!-- About Section End-->
-
- <!-- Resume Section -->
- <section id="resume">
-
- 	<!-- Work -->
-
- 	<div class="row work">
-
- 		<div class="three columns header-col">
- 			<h1><span>Work</span></h1>
- 		</div>
-
- 		<div class="nine columns main-col">
-
- 			<ng-resume-row item="getData('facilit')"></ng-resume-row>
-			<ng-resume-row item="getData('facilit2')"></ng-resume-row>
- 		</div> <!-- main-col end -->
-
- 	</div> <!-- End Work -->
-
- 	<!-- Education -->
-
- 	<div class="row education">
-
- 		<div class="three columns header-col">
- 			<h1><span>Education</span></h1>
- 		</div>
-
- 		<div class="nine columns main-col">
-
- 			<ng-resume-row item="getData('ufpe')"></ng-resume-row>
-
- 			<ng-resume-row item="getData('upe')"></ng-resume-row>
-
- 		</div> <!-- main-col end -->
-
- 	</div> <!-- End Education -->
-
-
- 	<!-- Courses
-
- 	<div class="row education">
-
- 		<div class="three columns header-col">
- 			<h1><span>Courses</span></h1>
- 		</div>
-
- 		<div class="nine columns main-col">
-
- 			<ng-resume-row item="getData('umc')"></ng-resume-row>
-
- 		</div> <!-- main-col end
-
- 	</div>  End Courses --> 
-
-	<!-- Skills -->
-
- 	<div class="row skill">
-
- 		<div class="three columns header-col">
- 			<h1><span>Skills</span></h1>
- 		</div>
-
- 		<div class="nine columns main-col">
-
- 			<h5>{{getData('skills_plp')}}</h5>
- 			<ol>
- 				<li> <i class="fa fa-thumbs-up"></i> {{getData('skills_plp1')}}
- 				</li>
- 				<li> <i class="fa fa-smile-o"></i> {{getData('skills_plp2')}}
- 				</li>
- 				<li> <i class="fa fa-wrench"></i> {{getData('skills_plp3')}}
- 				</li>
- 			</ol>
-
- 			<h5>{{getData('skills_experience')}}</h5>
-
- 			<ol>
- 				<li ng-repeat="skill in getData('skills_experience_array')">
- 					{{skill.text}}
- 				</li>
- 			</ol>
-
- 			<div class="bars">
-
- 				<h5>{{getData('skills_and_recommendations')}}</h5>
-
- 				<p>{{getData('skills_section_description')}}</p>
-
- 				<p><strong>{{getData('last_updated')}}</strong></p>
-
- 				<p></p>
- 				<ul class="skills">
- 					<li ng-repeat="skill in linkedinSkills | limitTo:15">
- 						<span class="bar-expand skillbar" style="width:{{calculateWidth(skill.votes)}}%"></span><em>{{skill.skill}} - {{skill.votes}} votes</em>
- 					</li>
- 				</ul>
-
- 			</div><!-- end skill-bars -->
-
- 		</div> <!-- main-col end -->
-
- 	</div> <!-- End skills -->
-
- </section> <!-- Resume Section End-->
-
- <!-- Portfolio Section -->
-
- <section id="portfolio">
-
- 	<div class="row">
-
- 		<div class="twelve columns collapsed">
-
- 			<h1>Check Out Some of My Works.</h1>
-
- 			<!-- portfolio-wrapper -->
- 			<div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
-
- 				<div class="columns portfolio-item" ng-repeat="portfolio in portfolios">
-
- 					<div class="item-wrap">
-
- 						<a href="#modalArea" ng-click="setPortfolio(portfolio)" title="{{portfolio.title}}">
- 							<img alt="" ng-src="{{portfolio.imgUrl}}">
- 							<div class="overlay">
- 								<div class="portfolio-item-meta">
- 									<h5>{{portfolio.title}}</h5>
- 									<p>{{portfolio.description}}</p>
- 								</div>
- 							</div>
- 							<div class="link-icon"><i class="icon-plus"></i></div>
- 						</a>
-
- 					</div>
-
- 				</div> <!-- item end -->
-
- 			</div> <!-- portfolio-wrapper end -->
-
- 		</div> <!-- twelve columns end -->
-
- 	</div> <!-- row End -->
-
- 	<!-- Modal Popup -->
-
- 	<div id="modalArea" >
-
- 		<div class="popup-modal" ng-class="{'mfp-hide': portfolio.closed}" ng-repeat="portfolio in portfolios">
-
- 			<img class="scale-with-grid" ng-src="{{portfolio.modalImgUrl}}" alt="" />
-
- 			<div class="description-box">
- 				<h4>{{portfolio.title}}</h4>
- 				<p>{{portfolio.description}}</p>
- 				<span class="categories"><i class="fa fa-tag"></i><span ng-repeat="tag in portfolio.tags">{{tag.name}} </span></span>
- 			</div>
-
- 			<div class="link-box">
- 				<a href="{{portfolio.url}}" target="_blank">Details</a>
- 				<a href="#portfolio" ng-click="portfolio.closed = !portfolio.closed" class="popup-modal-dismiss">Close</a>
- 			</div>
-
- 		</div><!-- modal End -->
- 	</div>
-
- </section> <!-- Portfolio Section End-->
-
- <!-- Kick Ass Quote Section -->
-
- <section id="call-to-action">
-
- 	<div class="row">
-
- 		<div class="two columns header-col">
-
- 			<h1><span class="fa fa-globe"></span></h1>
-
- 		</div>
-
- 		<div class="ten columns">
-
- 			<h2><span class="lead">{{quote.quote}}</span></h2>
- 			<p class="info">{{quote.author}}</p>
-
- 		</div>
-
- 		<div class="three columns action">
-
- 		</div>
-
- 	</div>
-
- </section> <!-- Kick Ass Quote Section Section End-->
-
- <!-- About Section -->
- <section id="publications">
-
- 	<div class="row">
-
- 		<div class="three columns">
-
- 			<h2><span class="fa fa-book"></span> Publications</h2>
-
- 		</div>
-
- 		<div class="nine columns main-col">
-
- 			<h2>Academic</h2>
-
-         <h4>Bachelor's Thesis 
-         </h4>
-
-         <span><a target="_blank" href="doc/tcc.pdf">(pt-BR) TV Digital no Brasil: Uma Metodologia Prática para o Desenvolvimento de Aplicações Interativas Utilizando Ginga-NCL</a> - 2011 at Universidade de Pernambuco</span>
-
-         <hr>
-
-			<h2>Non-Academic</h2>
-
- 			<h4>Blog's most viewed posts
- 			</h4>
- 			
-         <ul>
-            <li><span><a target="_blank" href="http://mycyber-space.blogspot.com.br/2014/05/javafx-asynctask.html">(pt-BR) JavaFX AsyncTask: Um jeito fácil de manusear threads com JavaFX</a> - 2014</span></li>
-            <li><span><a target="_blank" href="http://mycyber-space.blogspot.com.br/2014/05/android-ios-como-detectar-e-corrigir.html">(pt-BR) Android, IOS: como detectar e corrigir crashes do meu aplicativo? Crashlytics</a> - 2014<span></li>
-            <li><span><a target="_blank" href="http://mycyber-space.blogspot.com.br/2014/05/android-como-fazer-para-as-imagens-de.html">(pt-BR) Android: Como fazer para as imagens de sua aplicação não serem exibidas na galeria?</a> - 2014</span></li>
-         </ul>
-
- 		</div>
-
- 	</div>
-
- </div>
-
-</section> <!-- About Section End-->
-
-<!-- Testimonials Section -->
-<section id="testimonials">
-
-	<div class="text-container">
-
-		<div class="row">
-
-			<div class="two columns header-col">
-
-				<h1><span></span></h1>
-
-			</div>
-
-			<div class="ten columns flex-container">
-
-				<div class="flexslider">
-
-					<flex-slider animation='slide' control-nav=true direction-nav=false
-					smooth-height=true slideshow-speed=30000 animation-speed=600 randomize=true slide="testimonial in testimonials">
-
-					<li>
-						<blockquote>
-							<p>{{testimonial.testimonial}}
-							</p>
-							<cite>{{testimonial.author}}</cite>
-							<em>{{testimonial.info}}</em>
-						</blockquote>
-					</li>
-				</flex-slider>
-
-			</div> <!-- div.flexslider ends -->
-
-		</div> <!-- div.flex-container ends -->
-
-	</div> <!-- row ends -->
-
-</div>  <!-- text-container ends -->
-
-</section> <!-- Testimonials Section End-->
-
-<!-- footer -->
-
-<footer>
-
-	<div class="row">
-
-		<div class="twelve columns">
-			
-			<ul class="social-links">
-				<li><a target="_blank" href="https://www.facebook.com/danilonovelino"><i class="fa fa-facebook"></i></a></li>
-				<li><a target="_blank" href="https://twitter.com/danilonovelino"><i class="fa fa-twitter"></i></a></li>
-				<li><a target="_blank" href="https://br.linkedin.com/in/danilonovelino"><i class="fa fa-linkedin"></i></a></li>
-				<li><a target="_blank" href="https://www.instagram.com/dannovelino/"><i class="fa fa-instagram"></i></a></li>
-				<li><a target="_blank" href="https://github.com/danilonovelino"><i class="fa fa-github"></i></a></li>
-   			</ul>
-
-			<ul class="copyright">
-				<li>&copy; Copyright 2014 CeeVee</li>
-				<li>Design by <a href="http://www.styleshout.com/" title="Styleshout" target="_blank">Styleshout</a></li>
-				<li>Improvements by <a href="https://github.com/victorlaerte/victorlaerte.github.io" title="Styleshout" target="_blank">Victor Laerte</a></li>   
-			</ul>
-
-		</div>
-
-		<div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home" ><i class="icon-up-open"></i></a></div>
-
-	</div>
-
-</footer> <!-- Footer End-->
-
-   <!-- Java Script
-   ================================================== -->
-   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
-   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
-   <script src="js/jquery.flexslider.js"></script>
-   <script src="js/angular.min.js"></script>
-   <script src="js/angular-flexslider.js"></script>
-   <script src="js/ctrl.js"></script>
-   <script src="js/waypoints.js"></script>
-   <script src="js/jquery.fittext.js"></script>
-   <!-- <script src="js/magnific-popup.js"></script> -->
-   <script src="js/init.js"></script>
-   <script src="js/services.js"></script>
-   <script src="js/underscore-min.js"></script>
-
-   <!-- Google Analytics -->
-   <script>
-   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-   	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-   	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-   ga('create', 'UA-75456275-4', 'auto');
-   ga('send', 'pageview');
-   </script>
-
- </body>
-
- </html>
+            <li>
+              <div class="dot"></div>
+              <div>
+                <h4>Monitoramento ativo</h4>
+                <p>Alertas automáticos para vencimentos de AVCB/CLCB e exigências de campo.</p>
+              </div>
+            </li>
+            <li>
+              <div class="dot"></div>
+              <div>
+                <h4>Sucesso do cliente</h4>
+                <p>Time dedicado para revisões periódicas, indicadores e próximos investimentos.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="metrics-card">
+          <div class="metric">
+            <span class="label">Nível de satisfação</span>
+            <strong>4,9/5</strong>
+            <p class="muted">Baseado em avaliações de clientes ativos.</p>
+          </div>
+          <div class="metric">
+            <span class="label">Prazo médio de respostas</span>
+            <strong>90 min</strong>
+            <p class="muted">Suporte de especialistas em horário estendido.</p>
+          </div>
+          <div class="metric">
+            <span class="label">Projetos acompanhados</span>
+            <strong>+1500</strong>
+            <p class="muted">Histórico preservado e exportável por cliente.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section trust" id="contato">
+      <div class="container trust-bar">
+        <div class="trust-item">
+          <div class="icon-circle small"><i class="fa fa-shield"></i></div>
+          <div>
+            <strong>Segurança de Dados</strong>
+            <p class="muted">Criptografia ponta a ponta e camadas extras de autenticação.</p>
+          </div>
+        </div>
+        <div class="trust-item">
+          <div class="icon-circle small"><i class="fa fa-headphones"></i></div>
+          <div>
+            <strong>Suporte Especializado</strong>
+            <p class="muted">Engenheiros dedicados para cada conta corporativa.</p>
+          </div>
+        </div>
+        <div class="trust-item">
+          <div class="icon-circle small"><i class="fa fa-trophy"></i></div>
+          <div>
+            <strong>10 Anos de Mercado</strong>
+            <p class="muted">Experiência aplicada em cada projeto e vistoria.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <div>
+        <div class="brand-mark sm">GT</div>
+        <p class="muted">10 Anos de experiência. Uma nova era de inovação para clientes GT Fire.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#inicio">Início</a>
+        <a href="#recursos">Recursos</a>
+        <a href="#suporte">Suporte</a>
+        <a href="#contato">Contato</a>
+      </div>
+      <div class="footer-cta">
+        <p class="muted">Quer migrar seus acessos? Fale com nosso suporte e faça parte da nova experiência.</p>
+        <a class="cta-button" href="mailto:contato@projetosdeincendio.com.br">Falar com o suporte</a>
+      </div>
+    </div>
+    <div class="container footer-note">
+      <span>&copy; 2024 GT Fire - Segurança contra incêndio.</span>
+    </div>
+  </footer>
+
+  <script src="js/site.js"></script>
+</body>
+</html>
